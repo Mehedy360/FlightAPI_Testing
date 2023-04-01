@@ -1,0 +1,220 @@
+{
+	"info": {
+		"_postman_id": "7bc9132f-4b48-4390-90fb-7f39732e0b75",
+		"name": "FlightAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20469786"
+	},
+	"item": [
+		{
+			"name": "GetPassengerDetail",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  [ \r\n    {\r\n      \"id\": 1,\r\n      \"firstName\": \"Mehedy\",\r\n      \"lastName\": \"Hasan\",\r\n      \"email\": \"mehedyhasan360@gmail.com\",\r\n      \"dateOfBirth\": \"1990-02-17\"\r\n    }\r\n  ]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/Passengers/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"Passengers",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateAuthor",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"var randomEmail = pm.variables.replaceIn(\"{{$randomEmail}}\")\r",
+							"console.log(randomEmail)\r",
+							"pm.environment.set(\"email\",randomEmail)\r",
+							"\r",
+							"var firstname = pm.variables.replaceIn(\"{{$randomFirstName}}\")\r",
+							"pm.environment.set(\"firstname\",firstname)\r",
+							"var lastname = pm.variables.replaceIn(\"{{$randomLastName}}\")\r",
+							"pm.environment.set(\"lastname\",lastname)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/Passengers/{{id}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"Passengers",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateAuthhorDetail",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"var randomEmail = pm.variables.replaceIn(\"{{$randomEmail}}\")\r",
+							"console.log(randomEmail)\r",
+							"pm.environment.set(\"email\",randomEmail)\r",
+							"\r",
+							"var firstname = pm.variables.replaceIn(\"{{$randomFirstName}}\")\r",
+							"pm.environment.set(\"firstname\",firstname)\r",
+							"var lastname = pm.variables.replaceIn(\"{{$randomLastName}}\")\r",
+							"pm.environment.set(\"lastname\",lastname)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/Passengers/{{id}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"Passengers",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddPassengerDetail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"id\":4,\r\n        \"firstName\":\"Shoaib\",\r\n        \"lastName\":\"Alam\",\r\n        \"email\":\"ShoaibAlam@gmail.com\",\r\n        \"dateOfBirth\":\"1997-07-16\"\r\n\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/Passengers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"Passengers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdatePassengerDetail",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\":\"{{firstName}}\",\r\n    \"lastName\":\"{{lastName}}\",\r\n    \"email\":\"{{email}}\",\r\n    \"dateOfBirth\":\"1997-07-23\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/Passengers/{{id}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"Passengers",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Specific Passenger Detail",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n      \"id\": 2,\r\n      \"firstName\": \"Golam\",\r\n      \"lastName\": \"Ji\",\r\n      \"email\": \"Golamrosul@gmail.com\"\r\n    },",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/Passengers/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"Passengers",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeletingPassengerDetails",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/Passengers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"Passengers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
