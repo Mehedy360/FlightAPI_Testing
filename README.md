@@ -1,24 +1,24 @@
-##Flight Passenger API Testing
+## Flight Passenger API Testing
 First, I created a Demo API for Testing, Here is the JSON Data Set.
 ![JSON](https://user-images.githubusercontent.com/44100836/229287106-c476a52c-b771-4914-8dae-aacdbe87bed1.png)
 
-##Get the Passenger's details
+## Get the Passenger's details
 Fetching Passenger details using the get method.
 ![GetPassengerDetail](https://user-images.githubusercontent.com/44100836/229287242-152898a9-0790-4137-9b1a-bcdbec1d95ff.png)
 
-##Add Passenger Detail
+## Add Passenger Detail
 Create Passenger detail using the post method
 ![AddPassengerDetail](https://user-images.githubusercontent.com/44100836/229287343-97181749-01ad-4b3f-8493-73a9d6cce192.png)
 
-##Get Specific Passenger Detail
+## Get Specific Passenger Detail
 Fetching Specific Passenger Detail using the get method and id
 ![GetSpecificPassengerDetailUsingEnvironmentDetail](https://user-images.githubusercontent.com/44100836/229287412-9a183e30-e44f-4814-a779-0d243db019f3.png)
 
-##Update Passenger Detail
+## Update Passenger Detail
 Updating Passenger Detail using the put method and the id
 ![GetUpdateSpecificPassengerDetails](https://user-images.githubusercontent.com/44100836/229287492-42da06bc-0603-4d83-a4bb-87267fe707f6.png)
 
-##Update Specific Passenger Detail
+## Update Specific Passenger Detail
 Fetching Specific Passenger Detail using the get method with id
 ![GetSpecificPassengerDetail](https://user-images.githubusercontent.com/44100836/229287723-52b27d06-089d-4662-921f-ae6a97f27882.png)
 
@@ -26,7 +26,7 @@ Fetching Specific Passenger Detail using the get method with id
 Deleting Passenger Detail using the delete method with id
 ![DeletingPassengerDetails](https://user-images.githubusercontent.com/44100836/229287761-e7e8109a-5a43-4cc9-8851-22cf1d366483.png)
 
-##Using environment values 
+## Using environment values 
 Using environment values in all method 
 ![SettingVariable](https://user-images.githubusercontent.com/44100836/229287822-2775c963-c4de-45ad-aca1-04f8f1baa78f.png)
 
@@ -40,13 +40,13 @@ Using environment values in all method
 
 ![randomValueWithGlobalVariable](https://user-images.githubusercontent.com/44100836/229287903-a3b748ef-3ac3-4a6f-ba78-d8f5b2ed9514.png)
 
-##Taking data from CSV file and Random value using postman
+## Taking data from CSV file and Random value using postman
 
 Using CSV file and random value in all methods and validation of the test cases
 
 ![randomDataWithExcel](https://user-images.githubusercontent.com/44100836/229287981-97c2c6a4-6716-4a24-9093-87994c7f31c6.png)
 
-##Random Values 
+## Random Values 
 ![randomValue01](https://user-images.githubusercontent.com/44100836/229287995-da0f5490-6fe8-4221-910a-7b4ad1773b8e.png)
 
 
@@ -64,15 +64,15 @@ Using CSV file and random value in all methods and validation of the test cases
 
 
 
-##Now run the collection with CSV Data and random values 
+## Now run the collection with CSV Data and random values 
 ![RunningDataUsingCSVfile](https://user-images.githubusercontent.com/44100836/229288054-62b01b74-025d-4a2c-b34c-107a3a606e19.png)
 
 
-##Hosting the JSON file on the local machine 
+## Hosting the JSON file on the local machine 
 ![DatabaseFileHosted](https://user-images.githubusercontent.com/44100836/229288152-9fa6d59e-409c-4e25-9119-16c78b732be6.png)
 
 
-##Now Running those code for generating reports
+## Now Running those code for generating reports
 ![NewmanReport03](https://user-images.githubusercontent.com/44100836/229288195-520341c4-4f47-4c95-ab95-f0160152c857.png)
 
 ![newmanReport2](https://user-images.githubusercontent.com/44100836/229288201-72181861-48f2-46dc-b190-2b439eb46511.png)
@@ -81,7 +81,7 @@ Using CSV file and random value in all methods and validation of the test cases
 
 ![newmanreport](https://user-images.githubusercontent.com/44100836/229288204-fd904e9e-2ded-4b91-84f4-3d47ff4143a1.png)
 
-##Reports are generated 
+## Reports are generated 
 ![NewmanFolder](https://user-images.githubusercontent.com/44100836/229288217-e3d5edd5-8e99-47a2-91a6-51b130b73521.png)
 
 
