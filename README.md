@@ -69,12 +69,12 @@ Using CSV file and random value in all methods and validation of the test cases
 
 
 
-##Hosting the JSON file on the local machine 
+## Hosting the JSON file on the local machine 
 ![DatabaseFileHosted](https://user-images.githubusercontent.com/44100836/229288152-9fa6d59e-409c-4e25-9119-16c78b732be6.png)
 
 
 
-##Now Running those code for generating reports
+## Now Running those code for generating reports
 ![NewmanReport03](https://user-images.githubusercontent.com/44100836/229288195-520341c4-4f47-4c95-ab95-f0160152c857.png)
 
 ![newmanReport2](https://user-images.githubusercontent.com/44100836/229288201-72181861-48f2-46dc-b190-2b439eb46511.png)
@@ -114,3 +114,10 @@ Using CSV file and random value in all methods and validation of the test cases
 
 ![Report](https://user-images.githubusercontent.com/44100836/229288392-5c88a38b-4682-4edd-b56e-20dfc78723dc.png)
 ![nemanDigitalReport](https://user-images.githubusercontent.com/44100836/229288397-47e46154-1078-4db8-9588-cbc9639b151b.png)
+
+
+
+
+
+
+
