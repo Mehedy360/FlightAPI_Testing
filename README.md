@@ -1,4 +1,4 @@
-## Flight Passenger API Testing
+##Flight Passenger API Testing
 First, I created a Demo API for Testing, Here is the JSON Data Set.
 ![JSON](https://user-images.githubusercontent.com/44100836/229287106-c476a52c-b771-4914-8dae-aacdbe87bed1.png)
 
@@ -6,11 +6,11 @@ First, I created a Demo API for Testing, Here is the JSON Data Set.
 Fetching Passenger details using the get method.
 ![GetPassengerDetail](https://user-images.githubusercontent.com/44100836/229287242-152898a9-0790-4137-9b1a-bcdbec1d95ff.png)
 
-## Add Passenger Detail
+##Add Passenger Detail
 Create Passenger detail using the post method
 ![AddPassengerDetail](https://user-images.githubusercontent.com/44100836/229287343-97181749-01ad-4b3f-8493-73a9d6cce192.png)
 
-## Get Specific Passenger Detail
+##Get Specific Passenger Detail
 Fetching Specific Passenger Detail using the get method and id
 ![GetSpecificPassengerDetailUsingEnvironmentDetail](https://user-images.githubusercontent.com/44100836/229287412-9a183e30-e44f-4814-a779-0d243db019f3.png)
 
@@ -64,17 +64,15 @@ Using CSV file and random value in all methods and validation of the test cases
 
 
 
-## Now run the collection with CSV Data and random values 
+##Now run the collection with CSV Data and random values 
 ![RunningDataUsingCSVfile](https://user-images.githubusercontent.com/44100836/229288054-62b01b74-025d-4a2c-b34c-107a3a606e19.png)
 
 
-
-## Hosting the JSON file on the local machine 
+##Hosting the JSON file on the local machine 
 ![DatabaseFileHosted](https://user-images.githubusercontent.com/44100836/229288152-9fa6d59e-409c-4e25-9119-16c78b732be6.png)
 
 
-
-## Now Running those code for generating reports
+##Now Running those code for generating reports
 ![NewmanReport03](https://user-images.githubusercontent.com/44100836/229288195-520341c4-4f47-4c95-ab95-f0160152c857.png)
 
 ![newmanReport2](https://user-images.githubusercontent.com/44100836/229288201-72181861-48f2-46dc-b190-2b439eb46511.png)
@@ -83,9 +81,7 @@ Using CSV file and random value in all methods and validation of the test cases
 
 ![newmanreport](https://user-images.githubusercontent.com/44100836/229288204-fd904e9e-2ded-4b91-84f4-3d47ff4143a1.png)
 
-
-
-## Report are generated 
+##Reports are generated 
 ![NewmanFolder](https://user-images.githubusercontent.com/44100836/229288217-e3d5edd5-8e99-47a2-91a6-51b130b73521.png)
 
 
